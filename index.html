@@ -2,17 +2,52 @@
 <head>
 <title>WEB!!</title>
 <meta charset="utf-8">
+    <style>
+        h1{
+            border-bottom:10px solid red;
+            padding:30px;
+        }
+        #container{
+            display:grid;
+            grid-template-columns: 150px 1fr;
+        }
+
+        @media all and (min-width: 600px){ 
+            body{
+                background-color:white;
+            }
+        }
+        
+        @media all and (max-width: 600px) {
+            body{
+                background-color:red;
+            }
+        }
+        h1{
+            font-family: 'Hurricane', cursive;
+        }
+        body{
+            font-family: 'Hurricane', cursive;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1><a  href="index.html">WEB</a></h1>
-Welcome! Hello <a   href="http://info.cern.ch/hypertext/WWW/TheProject.html">WEB</a>
-<ol>
-            <li><a  href="1.html">html</a></li>
-            <li><a  href="2.html">css</a></li>
-            <li><a  href="3.html">javascript</li>
-</ol>
+    <h1><a href="index.html">WEB</a></h1>
+    <div id="container">
+        <ol>  
+            <li><a href="1.html">html</a></li>
+            <li><a href="2.html">css</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
+        <div>
+            <h2>Welcome!</h2> 
+            Hello <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">WEB</a>
+        </div>
+    </div>
 
-WWW is <U>World <STRONG>Wide</STRONG> WEB</U>.<br>
 <img src="https://images.unsplash.com/photo-1511029029301-60680e65f7c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" width="300">
 
 <!doctype html>
